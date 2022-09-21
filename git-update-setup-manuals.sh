@@ -19,8 +19,8 @@ while getopts ":m:" opt; do
             echo 'git commit -m "'$OPTARG'"' >&2
             echo "git push" >&2
             git push
-            cd ~/GitLab-work/tutorials/win-data-science-py-setup
-            echo "cd ~/GitLab-work/tutorials/win-data-science-py-setup" >&2
+            cd ~/Github-personal/tutorials/linux-data-science-py-setup
+            echo "cd ~/Github-personal/tutorials/linux-data-science-py-setup" >&2
             git add README.md
             echo "git add README.md" >&2
             git commit -m "$OPTARG"
