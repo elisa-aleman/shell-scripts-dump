@@ -3,7 +3,7 @@
 while getopts ":m:" opt; do
     case $opt in
         m)
-            cd ~/Github-personal/tutorials/mac-proxy-lab-setup
+            cd ~/Github-personal/elisa-aleman/tutorials/mac-proxy-lab-setup
             echo "cd ~/Github-personal/tutorials/mac-proxy-lab-setup/" >&2
             git add README.md
             echo "git add README.md" >&2
@@ -11,7 +11,7 @@ while getopts ":m:" opt; do
             echo 'git commit -m "'$OPTARG'"' >&2
             echo "git push" >&2
             git push
-            cd ~/Github-personal/tutorials/win-data-science-py-setup
+            cd ~/Github-personal/elisa-aleman/tutorials/win-data-science-py-setup
             echo "cd ~/Github-personal/tutorials/win-data-science-py-setup" >&2
             git add README.md
             echo "git add README.md" >&2
@@ -19,7 +19,7 @@ while getopts ":m:" opt; do
             echo 'git commit -m "'$OPTARG'"' >&2
             echo "git push" >&2
             git push
-            cd ~/Github-personal/tutorials/linux-data-science-py-setup
+            cd ~/Github-personal/elisa-aleman/tutorials/linux-data-science-py-setup
             echo "cd ~/Github-personal/tutorials/linux-data-science-py-setup" >&2
             git add README.md
             echo "git add README.md" >&2
